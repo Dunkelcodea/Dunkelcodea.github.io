@@ -70,13 +70,14 @@ ul, ol {
 }
 
 li {
-     Display:inline;
     > ul,
     > ol {
          margin-bottom: 0;
     }
 }
-
+li{
+    display:inline;
+}
 
 
 /**
